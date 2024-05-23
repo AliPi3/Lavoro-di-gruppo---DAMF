@@ -1,0 +1,177 @@
+/* IMPOSTAZIONI GENERALI */
+
+/* HEADER */
+
+/* MAIN */
+
+* {font-family: 'fa';}
+
+body {background-image: url(./start/assets/img/sfondo.png);
+  background-repeat: repeat;
+background-size: 30em;
+background-position: center right}
+main  {
+    margin: 15px 15px ;
+    background-color: white; 
+    box-shadow: 1px 1px 1px 1px gray;
+    padding: 30px 20px
+  }
+  
+  /* ELEMENTI NEL MAIN - ARTICLE */
+  
+  strong {
+    color: rgb(133, 5, 105);
+    font-weight: bold;
+    }
+  
+ 
+   
+  ol {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #467dd0;
+    font-weight: bold;
+  }
+  
+  /* TABELLE */
+  
+  table caption{
+      font-size:large;
+      font-weight: 10;
+      padding-top: 15px;
+      font-style: italic;
+      margin-bottom: 5px;
+  }
+  
+  tr:nth-child(2n) {
+   background-color:  rgb(214, 211, 211);
+  }
+  
+  thead tr th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color:rgb(74, 106, 204);
+      color: white;
+      text-align:center;
+      
+     }
+  
+  
+  table {
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+    height: 200px;
+    border-bottom:2px solid #467dd0;
+    margin-bottom: 20px;
+    ;
+  }
+  
+  td {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align:center;
+      padding-left: 12px;
+      padding-right: 12px;
+      }
+  
+
+
+    
+  
+a[target="blank"] {color:#239fbb}
+
+
+iframe {border-radius: 20px; 
+    width:100%; 
+  
+    height:140px;
+    margin: 30px 0;
+    
+}
+
+article section {
+    background-color:  rgb(226, 226, 226);
+    padding: 13px
+
+
+}
+
+article section h2 {
+    color: black; 
+    font-weight: 600; 
+    text-align: center ; 
+    text-transform:uppercase;
+    font-size: 120%;
+   
+
+}
+
+article section p {
+    
+    font-size: 100%;
+    padding: 20px 0;
+
+}
+
+article section form input {
+    border-bottom-style: dashed;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+    padding: 4px;
+   }
+
+article section form button {
+    background-color: rgb(74, 106, 204);
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 4px 6px;
+
+}
+
+aside div {
+    background-color:rgb(226, 226, 226) ;
+    border-width: 3px;
+    border-color: gray;
+    padding: 13px;
+    margin: 13px 0
+}
+
+aside h2 {
+    color: black; 
+    font-weight: 600; 
+    text-align: center ; 
+    text-transform:uppercase;
+    margin: 30px 0;
+    font-size: 120%;
+ }
+
+ aside a {
+    color:#239fbb;
+ }
+
+ aside p {
+    padding: 3px 0
+ }
+
+ aside div p:last-child {
+    text-align:right; 
+    font-size: 80%;
+    padding-top: 20px;
+    padding-bottom: -15px}
+
+ 
+
+
+ 
